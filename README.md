@@ -113,7 +113,9 @@ Target profit percentages automatically scale with account equity:
    - Sign up at [finnhub.io](https://finnhub.io) for fallback price feed
    - Free tier available
 
-### Installation
+### Building the Project
+
+**Note**: Due to network restrictions in some environments, you may need to build this project locally on your own machine with full internet access.
 
 1. **Clone the repository**
    ```bash
@@ -124,6 +126,7 @@ Target profit percentages automatically scale with account equity:
 2. **Open in Android Studio**
    - Android Studio Hedgehog (2023.1.1) or newer
    - File → Open → Select RIVR2 folder
+   - Wait for Gradle sync to complete
 
 3. **Build the project**
    ```bash
@@ -140,6 +143,14 @@ Target profit percentages automatically scale with account equity:
    ./gradlew assembleRelease
    ```
    APK will be in `app/build/outputs/apk/release/`
+
+### Alternative: Manual Build in Android Studio
+
+1. Open Android Studio
+2. File → Open → Select the RIVR2 folder
+3. Wait for Gradle sync
+4. Build → Build Bundle(s) / APK(s) → Build APK(s)
+5. The APK will be in `app/build/outputs/apk/debug/`
 
 ### First-Time Configuration
 
