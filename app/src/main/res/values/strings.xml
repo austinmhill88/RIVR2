@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rebound Rocket</string>
+    <string name="notification_channel_name">Trading Service</string>
+    <string name="notification_channel_description">Real-time trading bot notifications</string>
+    <string name="service_notification_title">Rebound Rocket</string>
+    <string name="service_running">Trading %1$s • %2$s today</string>
+    <string name="alarm_channel_name">Trading Alerts</string>
+    <string name="alarm_channel_description">Important trading alerts and warnings</string>
+    <string name="drawdown_alert_title">⚠️ High Drawdown Alert</string>
+    <string name="drawdown_alert_message">Portfolio down %1$.2f%% from peak. Bot auto-paused.</string>
+    <string name="daily_summary_title">Daily Trading Summary</string>
+    <string name="websocket_disconnect_title">WebSocket Disconnected</string>
+    <string name="websocket_disconnect_message">Price feed disconnected for over 30 seconds</string>
+    
+    <!-- Biometric -->
+    <string name="biometric_title">Authenticate</string>
+    <string name="biometric_subtitle">Confirm manual trading action</string>
+    <string name="biometric_negative_button">Cancel</string>
+    
+    <!-- UI Labels -->
+    <string name="buy_now">BUY 50%% NOW</string>
+    <string name="sell_all_now">SELL ALL NOW</string>
+    <string name="cancel_orders">CANCEL ALL ORDERS</string>
+    <string name="pause_bot">PAUSE BOT</string>
+    <string name="resume_bot">RESUME BOT</string>
+    <string name="settings">Settings</string>
+    <string name="equity_chart_title">Equity Chart</string>
+    <string name="millionaire_countdown">$1M in ~%1$s</string>
+    <string name="target_percent">Target: %1$.2f%%</string>
+    <string name="current_position">Current Position</string>
+    <string name="no_position">No open position</string>
+    <string name="trade_history">Trade History</string>
+    <string name="export_csv">Export CSV</string>
+    
+    <!-- Settings -->
+    <string name="paper_api_key">Paper API Key</string>
+    <string name="paper_api_secret">Paper API Secret</string>
+    <string name="live_api_key">Live API Key</string>
+    <string name="live_api_secret">Live API Secret</string>
+    <string name="finnhub_api_key">Finnhub API Key (Optional)</string>
+    <string name="use_live_trading">Use Live Trading</string>
+    <string name="stock_symbol">Stock Symbol</string>
+    <string name="manual_target_override">Manual Target Override</string>
+    <string name="lock_target">Lock Target</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+</resources>
